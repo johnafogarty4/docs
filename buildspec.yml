@@ -6,6 +6,7 @@ phases:
         nodejs: 10
     commands: 
       - npm install -g hexo-cli
+      - npm install
       - apt-get update
       - apt-get install -y awscli
 
